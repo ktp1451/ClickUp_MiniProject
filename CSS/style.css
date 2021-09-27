@@ -207,6 +207,7 @@ main {
 .container-features1 {
     display: flex;
     margin-top: 100px;
+    justify-content: center;
 }
 
 .container-features1 h2 {
@@ -224,6 +225,7 @@ main {
 .container-features2 {
     display: flex;
     margin-top: 100px;
+    justify-content: center;
 }
 
 .container-features2 h2 {
