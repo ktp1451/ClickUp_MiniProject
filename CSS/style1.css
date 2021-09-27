@@ -1,0 +1,93 @@
+/* general styling */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Avenir";
+}
+
+/* navigation */
+
+.logo-container {
+    width: auto;
+    margin: 20px;
+    padding-left: 240px;
+    padding-right: 100px;
+}
+
+.logo-container image {
+    /* padding-right: 9px; */
+}
+
+.header {
+    color: #4B5D68;
+}
+
+.header div {
+    padding-top: 20px;
+    margin-right: 20px;
+    float: left;
+    position:initial;
+    font-size: 15px;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    padding-top: 30px;
+}
+
+a:link {
+    color: #4B5D68;
+}
+a:visited {
+    color: #4B5D68;
+}
+
+button {
+    padding-top: ;
+}
+
+.button {
+    width: 210px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 5px 0 rgba(75, 93, 104, 0.1);
+    /* opacity: 10%; */
+    border-radius: 50px;
+    overflow: hidden;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+.button-text {    
+    font-family: "Avenir";
+    font-size: 15px;
+    font-weight: 500;
+    color: #212353;
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+.button-icon {
+    color:#9C69E2;
+    /* padding-top: 15px; */
+    padding-left: 150px;
+    padding-right: 15px;
+    font-size: 25px;
+}
+
+.button-text,
+.button-icon {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}

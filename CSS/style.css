@@ -1,0 +1,76 @@
+/* general styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+/* navigation */
+li, a {
+    font-family: "Avenir", Helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4B5D68;   
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-links {
+    list-style: none;
+    padding-left: 121px;
+    padding-right: 418px;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20;
+    padding-right: 40px;
+
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #212353;
+}
+
+button {
+    font-family: "Avenir", Helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    color: #212353;
+    text-decoration: none;
+    width: 210px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 5px 0 rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    overflow: hidden;    
+    cursor: pointer;
+}
+
+.button-icon {
+    color:#9C69E2;
+    font-size: 25px;
+    position:absolute;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 5px 0 rgba(75, 93, 104, 0.25);
+}
