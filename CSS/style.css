@@ -3,7 +3,14 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
 
+h2 {
+    font-family: Helvetica;
+}
+
+p {
+    font-family: "Avenir", Helvetica;
 }
 
 /* navigation */
@@ -46,7 +53,7 @@ header {
     color: #212353;
 }
 
-button {
+#request-button button {
     font-family: "Avenir", Helvetica;
     font-weight: 500;
     font-size: 16px;
@@ -70,7 +77,112 @@ button {
     transition: all 0.3s ease 0s;
 }
 
-button:hover {
+#request-button:hover {
     background-color: #FFFFFF;
     box-shadow: 0 5px 5px 0 rgba(75, 93, 104, 0.25);
+    border-radius: 50px;
+}
+
+/* data storage section */
+main {
+    display: flex;
+    /* height: calc(100vh -120px); */
+    align-items: center;
+    justify-content: center;
+}
+/* 
+.data-storage {
+    position: relative;
+    width: 100%;
+} */
+
+.data-storage h2 {
+    margin-left: 240px;
+    margin-top: 147px;    
+    font-size: 80px;
+    color: #212353;
+    width:max-content;
+    /* position: relative; */
+    display: grid;
+}
+
+.data-storage p {
+    margin-left: 240px;
+    margin-top: 50px;
+    margin-right: 0%;
+    font-size: 18px;
+    line-height: 29px;
+    color: #4B5D68;
+    width:max-content;
+    position: relative;
+}
+
+.data-image {
+    width: 885px;
+    height: 468px;
+    float: right;
+    /* position:relative; */
+    overflow: hidden;
+    /* float: left; */
+    margin-top: 250px;
+    /* shape-outside: circle(100%); */
+}
+
+#data-button button {
+    font-family: "Avenir", Helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 240px;
+    background-color: #9C69E2;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 170px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    overflow: hidden;    
+    cursor: pointer;
+}
+
+/* high level section */
+.high-level {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    width: 1117px;
+    height: 560px;
+    background-color: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    margin-top: 102px;
+    margin-left: 240px;
+}
+
+.high-level-image {
+    width: 477px;
+    height: 504px;
+    /* margin-top: 134px; */
+    /* margin-left: inherit; */
+    /* margin-right: 62px; */
+    /* margin-bottom: 25px; */
+}
+
+.high-level h2 {
+    margin-top: 115px;
+    margin-left: 50px;
+    font-size:40px;
+    line-height: 52px;
+    margin-bottom: 40px;
+    color: #212353;
+    
+}
+
+.high-level p {
+    font-size: 18px;
+    line-height: 29px;
+    color:#4B5D68;
+    width:474px;
+    margin-left: 50px;
 }
