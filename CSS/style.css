@@ -42,7 +42,6 @@ header {
     display: inline-block;
     padding: 0px 20;
     padding-right: 40px;
-
 }
 
 .nav-links li a {
@@ -201,6 +200,7 @@ main {
     font-size: 18px;
     line-height: 29px;
     text-align: center;
+    margin: 0;
     margin-top: 50px;
 }
 
@@ -214,6 +214,9 @@ main {
     color: #212353;
     font-size: 24px;
     line-height: 31px;
+    font-weight: 50;
+    margin-bottom: 20px;
+    margin-top: 49px;
 }
 
 .container-features1 p {
@@ -224,7 +227,7 @@ main {
 
 .container-features2 {
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
     justify-content: center;
 }
 
@@ -232,6 +235,9 @@ main {
     color: #212353;
     font-size: 24px;
     line-height: 31px;
+    font-weight: 50;
+    margin-top: 49px;
+    margin-bottom: 20px;
 }
 
 .container-features2 p {
@@ -240,24 +246,84 @@ main {
     line-height: 26px;
 }
 
-.box-1 {
+.box {
+    height: 358px;
+    width: 442px;
+}
 
+.box-1 {
+    margin-top: 73px;
 }
 .box-2 {
-
+    height: 358px;
+    width: 442px;
+    justify-content: center;
+    background-color: rgba(104, 201, 186, .1);
 }
-.box-3 {
+.box-2 h2, p {
+    margin-left: 172px;
+}
+.box-2 p {
+    margin-bottom: 40px;
+}
 
+.box-3 {
+    margin-top: 73px;
 }
 .box-4 {
-
+    height: 358px;
+    width: 442px;
+    justify-content: center;
+    background-color: rgba(156, 105, 226, .1);
 }
-.box-5 {
+.box-4 h2, p {
+    margin-left: 172px;
+}
+.box-4 p {
+    margin-bottom: 60px;
+}
 
+.box-5 {
+    margin-top: 73px;
 }
 .box-6 {
-
+    height: 358px;
+    width: 442px;
+    justify-content: center;
+    background-color: rgba(240, 99, 184, .1);
 }
-.box-7 {
+.box-6 h2, p {
+    margin-left: 172px;
+}
+.box-6 p {
+    margin-bottom: 80px;
+}
 
+.box-7 {
+    margin-top: 73px;
+}
+
+.box-8 {
+    height: 358px;
+    width: 442px;
+    justify-content: center;
+    background-color: rgba(45, 156, 219, .1);
+}
+.box-8 h2, p {
+    margin-left: 172px;
+}
+.box-8 p {
+    margin-bottom: 35px;
+}
+
+#features-button button{
+    margin-left: 172px;  
+    background-color: transparent;
+    font-family: "Avenir", Helvetica;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    border: none; 
+    cursor: pointer;
+    /* font-stretch:semi-expanded; */
 }
