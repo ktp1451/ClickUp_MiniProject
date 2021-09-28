@@ -7,3 +7,7 @@ We were to only use pure html/css. No Bootstrap or other exterior frameworks.
 Below is a comparison between the Figma rendered design, and what I was able to create.
 
 ![](exports/screenshot_1.png):
+![](exports/screenshot_2.png):
+![](exports/screenshot_3.png):
+![](exports/screenshot_4.png):
+![](exports/screenshot_5.png):
