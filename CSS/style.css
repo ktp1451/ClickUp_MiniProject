@@ -255,6 +255,7 @@ main {
 
 .box-1 {
     margin-top: 73px;
+    z-index: 1;
 }
 
 /* .box-1 .img .feature1 {
@@ -267,6 +268,7 @@ main {
     width: 442px;
     background-repeat: no-repeat;
     margin-left: -150px;
+    z-index:0;
     /* justify-content: center; */
     /* border-bottom-width: 442px;    
     border-top-width: 332px;
@@ -284,6 +286,7 @@ main {
 
 .box-3 {
     margin-top: 73px;
+    z-index: 1;
 }
 .box-4 {
     background-image: url(/exports/Rectangle\ 40.png);
@@ -291,6 +294,7 @@ main {
     width: 442px;
     background-repeat: no-repeat;
     margin-left: -150px;
+    z-index: 0;
 }
 .box-4 h2, p {
     margin-left: 172px;
@@ -301,6 +305,7 @@ main {
 
 .box-5 {
     margin-top: 73px;
+    z-index: 1;
 }
 .box-6 {
     background-image: url(/exports/Rectangle\ 41.png);
@@ -308,6 +313,7 @@ main {
     width: 442px;
     background-repeat: no-repeat;
     margin-left: -150px;
+    z-index: 0;
 }
 .box-6 h2, p {
     margin-left: 172px;
@@ -318,6 +324,7 @@ main {
 
 .box-7 {
     margin-top: 73px;
+    z-index: 1;
 }
 
 .box-8 {
@@ -326,6 +333,7 @@ main {
     width: 442px;
     background-repeat: no-repeat;
     margin-left: -150px;
+    z-index: 0;
 }
 .box-8 h2, p {
     margin-left: 172px;
@@ -345,3 +353,15 @@ main {
     cursor: pointer;
     /* font-stretch:semi-expanded; */
 }
+
+/* testimonials section */
+.testimonials-image {
+    width: 1118px;
+    height: 709px;
+    display: block;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* footer section */
