@@ -473,6 +473,7 @@ p {
     font-weight: 500px;
     color:#212353;
     margin-left: 240px;
+    line-height: 29px;
 }
 
 .footer .p3 {
@@ -480,6 +481,48 @@ p {
     font-weight: 400px;
     color:#212353;
     margin-left: 240px;
+    line-height: 29px;
+}
+
+.footer-section .p-about {
+    font-size: 16px;
+    font-weight: 400px;
+    list-style: none;
+    margin-left: 260px;
+    line-height: 40px;
+    color:#212353;
+}
+
+.footer-section .about-links {
+    font-size: 16px;
+    font-weight: 400px;
+    list-style: none;
+    margin-left: 225px;
+    line-height: 40px;
+    color:#212353;
+}
+
+.footer-section .p-help {
+    font-size: 16px;
+    font-weight: 400px;
+    list-style: none;
+    margin-left: 260px;
+    line-height: 40px;
+    color:#212353;
+}
+
+.footer-section .help-links {
+    font-size: 16px;
+    font-weight: 400px;
+    list-style: none;
+    margin-left: 225px;
+    line-height: 40px;
+    margin-right: 250px;
+    color:#212353;
+}
+
+.p-social {
+    margin-left: 0px;
 }
 
 .fa {
@@ -491,7 +534,7 @@ p {
     background: rgba(33, 35, 83, .1);
     color: white;
     border-radius: 50%;
-  }
+}
  
 .fa:hover {
 opacity: 0.7;
@@ -506,3 +549,4 @@ opacity: 0.7;
     color:#9C69E2;
 }
 
+@media only screen and (max-width: 1600px)
