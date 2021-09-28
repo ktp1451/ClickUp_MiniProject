@@ -97,7 +97,7 @@ main {
 
 .data-storage h2 {
     margin-left: 240px;
-    margin-top: 147px;    
+    margin-top: 80px;    
     font-size: 80px;
     color: #212353;
     width:max-content;
@@ -124,6 +124,8 @@ main {
     overflow: hidden;
     /* float: left; */
     margin-top: 250px;
+    margin-left: -150px;
+    margin-right: 130px;
     /* shape-outside: circle(100%); */
 }
 
@@ -254,12 +256,25 @@ main {
 .box-1 {
     margin-top: 73px;
 }
+
+/* .box-1 .img .feature1 {
+    
+    position: absolute;
+} */
 .box-2 {
+    background-image: url(/exports/Rectangle\ 39.png);
     height: 358px;
     width: 442px;
-    justify-content: center;
+    background-repeat: no-repeat;
+    margin-left: -150px;
+    /* justify-content: center; */
+    /* border-bottom-width: 442px;    
+    border-top-width: 332px;
     background-color: rgba(104, 201, 186, .1);
+    clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+    border-radius: 50px; */
 }
+
 .box-2 h2, p {
     margin-left: 172px;
 }
@@ -271,10 +286,11 @@ main {
     margin-top: 73px;
 }
 .box-4 {
+    background-image: url(/exports/Rectangle\ 40.png);
     height: 358px;
     width: 442px;
-    justify-content: center;
-    background-color: rgba(156, 105, 226, .1);
+    background-repeat: no-repeat;
+    margin-left: -150px;
 }
 .box-4 h2, p {
     margin-left: 172px;
@@ -287,10 +303,11 @@ main {
     margin-top: 73px;
 }
 .box-6 {
+    background-image: url(/exports/Rectangle\ 41.png);
     height: 358px;
     width: 442px;
-    justify-content: center;
-    background-color: rgba(240, 99, 184, .1);
+    background-repeat: no-repeat;
+    margin-left: -150px;
 }
 .box-6 h2, p {
     margin-left: 172px;
@@ -304,10 +321,11 @@ main {
 }
 
 .box-8 {
+    background-image: url(/exports/Rectangle\ 42.png);
     height: 358px;
     width: 442px;
-    justify-content: center;
-    background-color: rgba(45, 156, 219, .1);
+    background-repeat: no-repeat;
+    margin-left: -150px;
 }
 .box-8 h2, p {
     margin-left: 172px;
